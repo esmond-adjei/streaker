@@ -8,17 +8,22 @@ Streakapp is a useful tool for keeping track of your daily tasks and habits ensu
 git clone https://github.com/esmond-adjei/streaker.git
 ```
 
-2. Install dependencies
+2. create a virtual environment
+```bash
+python -m venv venv
+```
+
+3. Install dependencies in a virtual environment
 ```bash
 pip install -r requirements.txt
 ```
 
-3. change directory into the project
+4. change directory into the project
 ```bash
 cd streaker
 ```
 
-4. Run the app
+5. Run the app
 ```bash
 python manage.py runserver
 ```
