@@ -28,6 +28,7 @@ class Task(models.Model):
     name = models.CharField(max_length=255, help_text='specific action, \
                                         eg: read 30 pages (specific), prepare for school (vague)')
     description = models.TextField()
+    is_completed = models.BooleanField(default=False)
     # streak info - time measurement
     _completion_period = models.PositiveIntegerField(null=True, blank=True, help_text='number of days to perform tasks')
     duration_per_day = models.PositiveIntegerField(default=30, help_text='in minutes')
