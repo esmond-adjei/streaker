@@ -28,11 +28,11 @@ DEBUG = True
 ALLOWED_HOSTS = [
     'localhost',
     'streaker-b110d043e58f.herokuapp.com',
-    'streaker.esmond.tech',
 ]
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",  # React development server
+    'streaker.esmond.tech',
 ]
 
 
