@@ -27,6 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'localhost',
+    'streaker-b110d043e58f.herokuapp.com',
     'streaker.esmond.tech',
 ]
 
